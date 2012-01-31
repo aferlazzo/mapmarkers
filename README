@@ -1,0 +1,16 @@
+These scripts can become a starting point for your Google Maps mash-up.
+
+Click on the map marker in the heading of index.htm to add, change, or delete
+map markers on the map. Click it again to hide the list of markers.
+
+- Adding a marker by simply pressing a "+" button and typing the name of the city. The marker will be added to the map beneath the marker list.
+
+- Change a marker name  simply by clicking on the city name on the list and editing.
+
+- Delete a marker by pressing the "-" button on the line in the list.
+
+The marker list is stored on your server and is written in PHP5. The 2 scripts, "markerserver.php" and "class-lib.php" handle the chores of maintaining the "markers.txt" file. 
+
+The browser code is written mostly in JavaScript. The script is in "js/markers.js" with support from Modernizr for you to add additional code as you need. 
+
+Enjoy!
